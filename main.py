@@ -4,7 +4,7 @@ import json
 import time
 
 # Initialize the Groq client with your API key
-client = Groq(api_key="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")
+client = Groq(api_key="you api key here")
 
 # Define a custom LLM wrapper with rate limiting
 class GroqLLM:
@@ -59,7 +59,7 @@ class GroqLLM:
             raise
 
 # Instantiate the custom Groq LLM
-groq_llm = GroqLLM(api_key="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")
+groq_llm = GroqLLM(api_key="your api key here")
 
 # Configuration for ScrapeGraphAI
 graph_config = {
@@ -74,12 +74,12 @@ graph_config = {
 }
 
 # Define the scraping prompt
-prompt = "Find the assassination attempt on Caliph Umar bin al-Khattab."
+prompt = "give some prompt here to scrape"
 
 # Create and run the SmartScraperGraph instance
 smart_scraper_graph = SmartScraperGraph(
     prompt=prompt,
-    source="https://en.wikipedia.org/wiki/Umar",
+    source="paste the link of the website to scrape",
     config=graph_config
 )
 
