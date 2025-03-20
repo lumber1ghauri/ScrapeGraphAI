@@ -26,7 +26,7 @@ python -m venv venv
 ```
 #### Windows:
 ```bash
-D:\Study\Courses\pingPongScript\venv\Scripts\activate
+D:
 ```
 
 ## Step 3: Install Required Libraries
