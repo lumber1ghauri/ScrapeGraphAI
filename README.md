@@ -21,7 +21,7 @@ Ensure you have the following:
 ## Step 2: Set Up Your Python Environment
 ### Create and Activate a Virtual Environment
 ```bash
-cd D:\Study\Courses\pingPongScript
+cd D:
 python -m venv venv
 ```
 #### Windows:
@@ -133,7 +133,7 @@ Replace `YOUR_GROQ_API_KEY_HERE` with the actual API key (e.g., `gsk_xxxxxxxxxxx
 ## Step 5: Run the Script
 Activate the virtual environment if not already active:
 ```bash
-D:\Study\Courses\pingPongScript\venv\Scripts\activate
+D:
 ```
 
 Execute the script:
